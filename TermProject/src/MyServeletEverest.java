@@ -33,6 +33,7 @@ public class MyServeletEverest extends HttpServlet {
 		// TODO Auto-generated method stub
 		UtilDB.createEverest("Test");
 		UtilDB.createEverest("Test");
+		System.out.println("[DBG] Insert Complete.");
 	}
 
 	/**

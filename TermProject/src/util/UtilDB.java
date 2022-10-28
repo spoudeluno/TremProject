@@ -22,12 +22,13 @@ public class UtilDB {
 	      return sessionFactory;
 	   }
 
-	   public static void createEverest(String firstName) {
+	   public static void createEverest(String desc) {
+		      System.out.println("[DBG] Insert Start.");
 		      Session session = getSessionFactory().openSession();
 		      Transaction tx = null;
 		      try {
 		         tx = session.beginTransaction();
-		         session.save(new EverestTreking(firstName));
+		         session.save(new EverestTreking(desc));
 		         tx.commit();
 		      } catch (HibernateException e) {
 		         if (tx != null)
