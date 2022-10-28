@@ -14,7 +14,7 @@ import util.UtilDB;
 /**
  * Servlet implementation class MyServelet
  */
-@WebServlet("/MyServelet")
+@WebServlet("/MyServeletEverest")
 public class MyServeletEverest extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -34,6 +34,7 @@ public class MyServeletEverest extends HttpServlet {
 		UtilDB.createEverest("Test");
 		UtilDB.createEverest("Test");
 		System.out.println("[DBG] Insert Complete.");
+		response.getWriter().print("New servelet");
 	}
 
 	/**
