@@ -17,26 +17,26 @@ public class EverestTreking {
 		this.desc = desc;
 	}
 
-	public EverestTreking(int day, String desc) {
-		this.day = day;
+	public EverestTreking(int id, String desc) {
+		this.id = id;
 		this.desc = desc;
 	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "day")
-	private int day;
+	@Column(name = "id")
+	private Integer id;
 	
 	@Column(name = "desc")
 	private String desc;
 	
-	public int getDay() {
-		return day;
+	public Integer getDay() {
+		return id;
 	}
 	
 
-	public void setDay(int day) {
-		this.day = day;
+	public void setDay(Integer day) {
+		this.id = day;
 	}
 	
 	public String getDesc() {
@@ -49,7 +49,7 @@ public class EverestTreking {
 	
 	@Override
 	public String toString() {
-		return "EverestTreking [day=" + day + ", desc=" + desc + "]";
+		return "EverestTreking [day=" + id + ", desc=" + desc + "]";
 	}
 	
 

@@ -1,4 +1,4 @@
-package servelet;
+
 
 import java.io.IOException;
 import java.util.List;
@@ -31,7 +31,6 @@ public class MyServelet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.setContentType("text/html");
 		UtilDB.createEverest("Test");
 		UtilDB.createEverest("Test");
 	}
