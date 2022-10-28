@@ -15,13 +15,13 @@ import util.UtilDB;
  * Servlet implementation class MyServelet
  */
 @WebServlet("/MyServelet")
-public class MyServelet extends HttpServlet {
+public class MyServeletEverest extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MyServelet() {
+    public MyServeletEverest() {
         super();
         // TODO Auto-generated constructor stub
     }
