@@ -88,9 +88,9 @@ public class LangtangTrekkingHB extends HttpServlet {
 	      }
 	      out.println("</ul>");
 	      out.println("<br> Total Price Calculated Based on Hotel Ratings:"
-		      		+ "<p>Five Star Hotel:" + five +"</p>"
-		      		+ "<p>Four Star Hotel:" + four +"</p>"
-		      		+ "<p>Five Star Hotel:" + three +"</p>"
+		      		+ "<p>Five Star Hotel: $" + five +"</p>"
+		      		+ "<p>Four Star Hotel: $" + four +"</p>"
+		      		+ "<p>Three Star Hotel:$ " + three +"</p>"
 		      		+ ""
 		      		+ "<div class=\"flex-container\">\r\n" + 
 		      		"		<div class=\"flex-child\">\r\n" + 
