@@ -90,9 +90,9 @@ public class EverestTrekkingHB extends HttpServlet {
 	      }
 	      out.println("</ul>");
 	      out.println("<br> Total Price Calculated Based on Hotel Ratings:"
-	      		+ "<p>Five Star Hotel: $ " + five +"</p>"
-	      		+ "<p>Four Star Hotel: $ " + four +"</p>"
-	      		+ "<p>Three Star Hotel: $ " + three +"</p>"
+	      		+ "<p>Five Star Hotel: &euro; " + five +"</p>"
+	      		+ "<p>Four Star Hotel: &euro; " + four +"</p>"
+	      		+ "<p>Three Star Hotel: &euro; " + three +"</p>"
 	      		+ ""
 	      		+ "<div class=\"flex-container\">\r\n" + 
 	      		"		<div class=\"flex-child\">\r\n" + 
